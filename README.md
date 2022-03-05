@@ -1,1 +1,1 @@
-# GraphQL-Django-SideProject
+# Public Document Scanner
