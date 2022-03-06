@@ -9,7 +9,6 @@ class BooksType(DjangoObjectType):
         fields = ("id", "title", "excerpt")
 
 class Query(graphene.ObjectType):
-
     all_books = graphene.List(BooksType)
 
     def resolve_all_books(root, info):
